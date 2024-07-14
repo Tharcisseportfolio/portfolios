@@ -40,7 +40,7 @@ const Education = () => {
                     </div>
                     <div key={index} className="education-item">
 
-                        <div>
+                        <div className='instutution'>
                             <h3>{edu.degree}</h3>
                             <p className="institution">School: {edu.institution} - {edu.class_of}</p>
                             <h4 className="description"><span className='text text-primary'>→</span>Major : {edu.Major}</h4>

@@ -8,7 +8,7 @@
     align-items: center;
     justify-content: center;
     min-height: 100vh; 
-    background-color: #010a12; 
+    background-color: #1d2225; 
     color: #333; 
     /* top:-50px; */
     /* background-image: url('/src/assets/react.svg'); */
@@ -75,7 +75,7 @@
 .scrolling-button{
     position: relative;
     color: white;
-    top: 5rem;
+    top: 2rem;
     font-size: 0px;
 }
 

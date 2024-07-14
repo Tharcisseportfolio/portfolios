@@ -19,12 +19,13 @@
 
 .education-item {
   margin-bottom: 20px;
-  font-size: 30px;
+  font-size: 25px;
   color: rgb(203, 200, 200);
 }
 
 .education-item h3{
     color: white;
+    /* font-size: 20px; */
 }
 .institution {
   font-weight: bold;
@@ -34,4 +35,17 @@
 .description {
   margin-top: 5px;
   color: rgb(139, 140, 141);
+}
+
+.instutution h4,.courses h4,.programs h4,.awards h4{
+  font-size: 18px;
+  color: rgb(71, 213, 9);
+}
+
+.courses h4{
+  color: aqua;
+}
+
+.text{
+  color: antiquewhite;
 }
