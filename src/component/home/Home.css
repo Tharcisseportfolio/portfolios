@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.names {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; 
+    background-color: #010a12; 
+    color: #333; 
+    /* top:-50px; */
+    /* background-image: url('/src/assets/react.svg'); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+
+}
+
+.blurred-background {
+  position: relative;
+  overflow: hidden;
+}
+
+.blurred-background::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('/src/assets/react.svg'); /* Adjust the path to your image */
+  background-size: cover;
+  background-position: center;
+  filter: blur(8px); /* Adjust the blur intensity as needed */
+  z-index: -1;
+}
+
+
+.salutation {
+  font-size: 2rem; /* Large font size for greeting */
+  margin-bottom: 0.5rem;
+  font-weight: bold; /* Bold font weight for emphasis */
+  color: #6c757d; /* Grey color for salutation */
+  font-family:var(--font-family)
+}
+
+.first-name, .last-name {
+  font-size: 3rem; /* Larger font size for names */
+  font-weight: bold; /* Bold font weight for emphasis */
+  font-family: var(--font-family);
+}
+
+.first-name {
+  color: #e7eaed; /* Blue color for first name */
+  font-family: var(--font-family);
+  font-size: 80px;
+}
+
+.last-name {
+  color: #28a745; /* Green color for last name */
+  font-family: var(--font-family);
+}
+
+.title{
+    color: hsl(0, 2%, 47%);
+    font-size: 30px;
+    font-family: var(--font-family);
+    font-weight: 800;
+}
+
+.scrolling-button{
+    position: relative;
+    color: white;
+    top: 5rem;
+    font-size: 0px;
+}
+
+ a{
+  font-size: 30px;
+  color: white;
+}
+.icons a{
+  color: white;
+  font-size: 30px;
+  margin: 0 2rem;
+}
