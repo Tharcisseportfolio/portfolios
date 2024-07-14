@@ -30,7 +30,7 @@ const courses = [
 const Education = () => {
     return (
         <section className="education-section" id='education'>
-            <h2>Education</h2>
+            <h2 className=' text-center p-4'>Education</h2>
             {educationData.map((edu, index) => (
                 <div className='school'>
                     <div className='image'>

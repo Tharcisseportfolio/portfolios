@@ -8,7 +8,11 @@ import './Home.css'
 function Home() {
   return (
     <>
+
       <div className='names blurred-background' id='home'>
+        <div className='infos'>
+          <h1 className='alert alert-primary'>This portfolio is stil under development but all information is accurate</h1>
+        </div>
         <h1 className='salutation'>Hi, I am </h1>
         <h2 className='first-name'>Tharcisse Ntirandekura</h2>
         <h3 className='last-name'>.........</h3>
@@ -25,9 +29,6 @@ function Home() {
 
 
     </>
-    
-
-
 
 
   )

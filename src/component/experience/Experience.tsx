@@ -23,7 +23,7 @@ function Experience() {
 
     return (
         <>
-            <h3 className="m-3 text-light" style={{fontSize:"40px"}} id='experience'>Experience</h3>
+            <h3 className="m-3 text-light text-center p-4" style={{fontSize:"40px"}} id='experience'>Experience</h3>
             <div className='info-cards'>
                 {positions.map((info, index) => (
                     <div className='info-card' key={index}>

@@ -17,6 +17,7 @@
   
   .info-card h2 {
     margin-bottom: 10px;
+    font-size: 20px;
     color: rgb(234, 127, 19);
     font-family: var(--font-title);
   }

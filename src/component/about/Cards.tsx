@@ -22,7 +22,7 @@ const Cards = () => {
 
         {
             category: "Community",
-            description: "I am a quick learner and a team player who is always willing to learn new technologies and work with others to achieve common goals. I have worked with Tujenge Africa Foundation for web development internship and also worked with the team to develop a user friendly websites that interacts well with the file server system to access school documentes easily."
+            description: "I am a quick learner and a team player who is always willing to learn new technologies and work with others to achieve common goals. I have worked with Tujenge Africa Foundation for web development internship and also worked with the team to develop a user friendly websites that interacts well with the file server system to access school documents easily."
         }
 
     ];

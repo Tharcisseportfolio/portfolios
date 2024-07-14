@@ -10,13 +10,19 @@
     min-height: 100vh; 
     background-color: #1d2225; 
     color: #333; 
-    /* top:-50px; */
-    /* background-image: url('/src/assets/react.svg'); */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    font-family: 'Inter', sans-serif;
-    font-size: 1.5rem;
+    filter: blur(0px);
+    z-index: 9999px;
+
+}
+.infos{
+    padding: 4rem;
+}
+.infos .alert{
+  color: #d90f0f;
+  background-color: #1d2225;
+  border-style: solid;
+  border-color: #5e5c5c;
+  font-size: 18px;
 
 }
 
@@ -28,14 +34,14 @@
 .blurred-background::before {
   content: '';
   position: absolute;
-  top: 0;
+  top: 10rem;
   left: 0;
-  right: 0;
+  right: 10rem;
   bottom: 0;
-  background-image: url('/src/assets/react.svg'); /* Adjust the path to your image */
+  background-image: url('/src/assets/rename.png'); /* Adjust the path to your image */
   background-size: cover;
   background-position: center;
-  filter: blur(8px); /* Adjust the blur intensity as needed */
+  filter: blur(6px); /* Adjust the blur intensity as needed */
   z-index: -1;
 }
 
@@ -45,7 +51,9 @@
   margin-bottom: 0.5rem;
   font-weight: bold; /* Bold font weight for emphasis */
   color: #6c757d; /* Grey color for salutation */
-  font-family:var(--font-family)
+  font-family:var(--font-family);
+
+  font-size:40px;
 }
 
 .first-name, .last-name {
@@ -67,7 +75,7 @@
 
 .title{
     color: hsl(0, 2%, 47%);
-    font-size: 30px;
+    font-size: 40px;
     font-family: var(--font-family);
     font-weight: 800;
 }
@@ -88,3 +96,22 @@
   font-size: 30px;
   margin: 0 2rem;
 }
+.scrolling-button a{
+  display: inline-block; 
+  animation: bounce 4s infinite; 
+  font-weight: bolder;
+  font-size: 80px;
+
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+

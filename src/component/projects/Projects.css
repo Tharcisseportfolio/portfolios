@@ -1,3 +1,7 @@
+.projects{
+  height: 100vh;
+  overflow-y: scroll;
+}
 .projects-container {
   display: flex;
   flex-wrap: wrap;
@@ -5,6 +9,7 @@
   gap: 20px;
   padding: 10px;
   box-shadow: 0 0 10px rgba(216, 46, 46, 0.1);
+  /* height: 100vh; */
 
 }
 
@@ -25,7 +30,7 @@
 
 .project-info {
   padding: 15px;
-  color: aliceblue;
+  color: rgb(171, 176, 179);
   font-size: 18px;
 }
 
@@ -34,9 +39,13 @@
     justify-content: center;
     align-items: center;
     margin-top: 0;
-    color: rgb(205, 16, 173);
+    color: rgb(92, 90, 92);
     font-weight: bold;
-    font-style: italic;
+    font-family: var(--font-family);
+    background-color:rgb(17, 18, 19);
+    border-style: solid;
+    border-color: rgb(63, 61, 61);
+    border-radius: 8px;
 }
 
 .project-info a {
@@ -45,4 +54,20 @@
   text-decoration: none;
   color: #14a446;
   font-size: 20px;
+}
+
+.tool{
+  font-size: 18px;
+  background-color: #148fb5;
+  padding :0.5rem;
+  border-radius: 6px;
+  border-style: solid;
+  border-color: #148fb5;
+}
+
+.parent-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /* Allows items to wrap onto the next line if needed */
+  gap: 10px; /* Adjust the gap between items as needed */
 }
