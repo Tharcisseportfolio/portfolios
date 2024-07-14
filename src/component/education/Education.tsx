@@ -1,6 +1,6 @@
 import React from 'react'
 import './Education.css'
-import Image from '../../assets/react.svg'
+// import Image from '../../assets/react.svg'
 const educationData = [
     {
         degree: "Bachelor of Arts",
@@ -34,7 +34,7 @@ const Education = () => {
             {educationData.map((edu, index) => (
                 <div className='school'>
                     <div className='image'>
-                        <img src={Image}></img>
+                        {/* <img src={Image}></img> */}
 
 
                     </div>
